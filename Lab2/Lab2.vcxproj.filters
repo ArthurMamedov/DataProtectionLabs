@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Cryptography">
+      <UniqueIdentifier>{db658625-14c3-42dd-834c-1f27748cca91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FilesystemWork">
+      <UniqueIdentifier>{25df6587-05fe-493c-ab39-f1c09e64ebcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{5ae0e4b7-168a-483d-9194-c262e5470fa3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ICryptor.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="CaesarCipher.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="VigenereCipher.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="FileEncryptor.cpp">
+      <Filter>FilesystemWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICryptor.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="CaesarCipher.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="VigenereCipher.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="FileEncryptor.h">
+      <Filter>FilesystemWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
